@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<ApplicationSettingsFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <isDebugMode>false</isDebugMode>
+  <currentResolution>
+    <width>1920</width>
+    <height>1080</height>
+    <refreshRate>60</refreshRate>
+  </currentResolution>
+  <fullScreen>true</fullScreen>
+  <generalVolume>1</generalVolume>
+  <musicVolume>1</musicVolume>
+  <sfxVolume>1</sfxVolume>
+  <ambienceVolume>1</ambienceVolume>
+  <uiVolume>1</uiVolume>
+  <globalSensitivity>1</globalSensitivity>
+</ApplicationSettingsFile>

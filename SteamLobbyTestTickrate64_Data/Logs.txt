@@ -1,0 +1,78 @@
+Log Date: 26.06.2022 00:00:00 Game Version: 0.1 Unity Version: 2022.1.3f1
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.2.279] - printed message type of 'Log' with value 'Application (ScenesManager) : Application'
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.2.280] - printed message type of 'Log' with value 'Application (AudioManager) : Application'
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.2.280] - printed message type of 'Log' with value 'Main Camera (CameraManager) : Main Camera'
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.2.283] - printed message type of 'Log' with value 'Application (Console) : Application'
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.2.283] - printed message type of 'Log' with value 'Application (GlobalEvents) : Application'
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.2.283] - printed message type of 'Log' with value 'Application (ApplicationSettings) : Application'
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.2.284] - printed message type of 'Log' with value 'NetworkManager (SteamLobby) : NetworkManager'
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.2.365] - Log String: Mirror Started Log Stack Trace: UnityEngine.Debug:Log (object)
+Mirror.NetworkManager:Awake () (at D:/Git Repos/NetworkTest/Assets/NetworkTest/Mirror/Runtime/NetworkManager.cs:190)
+ Log Type: Log
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.2.399] - printed message type of 'Log' with value 'Application (UIViewManager) : Application'
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.2.960] - Use Base Test Commands Value Is: True
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.2.960] - Use Developer  Commands Value Is: True
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.2.972] - Create Default Settings File
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.2.972] - Were Taken Default Settings
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.3.162] - Create Default Input Settings File
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.3.163] - Create Default LevelData File
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.4.857] - Log String: Start Host steam lobby Log Stack Trace: UnityEngine.Debug:Log (object)
+IDebuger:Print (DebugType,object,bool) (at D:/Git Repos/NetworkTest/Assets/Scripts/Utility/Debuger.cs:39)
+IDebuger:Print (DebugType,object) (at D:/Git Repos/NetworkTest/Assets/Scripts/Utility/Debuger.cs:29)
+SteamLobby:HostLobby () (at D:/Git Repos/NetworkTest/Assets/NetworkTest/SteamLobby.cs:37)
+UnityEngine.EventSystems.EventSystem:Update () (at D:/Git Repos/NetworkTest/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs:517)
+ Log Type: Log
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.5.156] - Log String: Lobby created succesfully Log Stack Trace: UnityEngine.Debug:Log (object)
+IDebuger:Print (DebugType,object,bool) (at D:/Git Repos/NetworkTest/Assets/Scripts/Utility/Debuger.cs:39)
+IDebuger:Print (DebugType,object) (at D:/Git Repos/NetworkTest/Assets/Scripts/Utility/Debuger.cs:29)
+SteamLobby:OnLobbyCreated (Steamworks.LobbyCreated_t) (at D:/Git Repos/NetworkTest/Assets/NetworkTest/SteamLobby.cs:48)
+Steamworks.Callback`1<Steamworks.LobbyCreated_t>:OnRunCallback (intptr) (at D:/Git Repos/NetworkTest/Assets/com.rlabrecque.steamworks.net/Runtime/CallbackDispatcher.cs:291)
+Steamworks.CallbackDispatcher:RunFrame (bool) (at D:/Git Repos/NetworkTest/Assets/com.rlabrecque.steamworks.net/Runtime/CallbackDispatcher.cs:191)
+Steamworks.SteamAPI:RunCallbacks () (at D:/Git Repos/NetworkTest/Assets/com.rlabrecque.steamworks.net/Runtime/Steam.cs:112)
+SteamManager:Update () (at D:/Git Repos/NetworkTest/Assets/Scripts/Steamworks.NET/SteamManager.cs:173)
+ Log Type: Log
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.5.157] - Log String: Starting server [SteamSockets]. Log Stack Trace: UnityEngine.Debug:Log (object)
+Mirror.FizzySteam.FizzySteamworks:ServerStart () (at D:/Git Repos/NetworkTest/Assets/NetworkTest/Mirror/Runtime/Transport/FizzySteamworks/FizzySteamworks.cs:160)
+Mirror.NetworkServer:Listen (int) (at D:/Git Repos/NetworkTest/Assets/NetworkTest/Mirror/Runtime/NetworkServer.cs:129)
+Mirror.NetworkManager:SetupServer () (at D:/Git Repos/NetworkTest/Assets/NetworkTest/Mirror/Runtime/NetworkManager.cs:253)
+Mirror.NetworkManager:StartHost () (at D:/Git Repos/NetworkTest/Assets/NetworkTest/Mirror/Runtime/NetworkManager.cs:414)
+SteamLobby:OnLobbyCreated (Steamworks.LobbyCreated_t) (at D:/Git Repos/NetworkTest/Assets/NetworkTest/SteamLobby.cs:50)
+Steamworks.Callback`1<Steamworks.LobbyCreated_t>:OnRunCallback (intptr) (at D:/Git Repos/NetworkTest/Assets/com.rlabrecque.steamworks.net/Runtime/CallbackDispatcher.cs:291)
+Steamworks.CallbackDispatcher:RunFrame (bool) (at D:/Git Repos/NetworkTest/Assets/com.rlabrecque.steamworks.net/Runtime/CallbackDispatcher.cs:191)
+Steamworks.SteamAPI:RunCallbacks () (at D:/Git Repos/NetworkTest/Assets/com.rlabrecque.steamworks.net/Runtime/Steam.cs:112)
+SteamManager:Update () (at D:/Git Repos/NetworkTest/Assets/Scripts/Steamworks.NET/SteamManager.cs:173)
+ Log Type: Log
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.7.785] - Log String: Record Start Log Stack Trace: UnityEngine.Debug:Log (object)
+SteamVoiceChat:Update () (at D:/Git Repos/NetworkTest/Assets/NetworkTest/SteamVoiceChat.cs:22)
+ Log Type: Log
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.9.382] - Log String: Record Stop Log Stack Trace: UnityEngine.Debug:Log (object)
+SteamVoiceChat:Update () (at D:/Git Repos/NetworkTest/Assets/NetworkTest/SteamVoiceChat.cs:27)
+ Log Type: Log
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.9.616] - Log String: Record Start Log Stack Trace: UnityEngine.Debug:Log (object)
+SteamVoiceChat:Update () (at D:/Git Repos/NetworkTest/Assets/NetworkTest/SteamVoiceChat.cs:22)
+ Log Type: Log
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Log : [1.26.11.91] - Log String: Record Stop Log Stack Trace: UnityEngine.Debug:Log (object)
+SteamVoiceChat:Update () (at D:/Git Repos/NetworkTest/Assets/NetworkTest/SteamVoiceChat.cs:27)
+ Log Type: Log
